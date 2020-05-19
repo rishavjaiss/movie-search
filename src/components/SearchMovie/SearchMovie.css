@@ -10,6 +10,7 @@
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
+  color: #fcefbf;
 }
 
 .input {
@@ -22,8 +23,8 @@
 }
 
 .button {
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white;
+  background-color: #fcefbf;
+  color: black;
   padding: 1rem 2rem;
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 20px;
@@ -33,7 +34,7 @@
 }
 
 .button:hover {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #fcefbfda;
 }
 
 @media (min-width: 786px) {

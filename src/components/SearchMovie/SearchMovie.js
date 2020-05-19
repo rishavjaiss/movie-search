@@ -25,6 +25,7 @@ export default function SearchMovie() {
       const data = await res.json();
       setMovies(data.results);
       setLodaing(false);
+      document.getElementById("form").reset();
     } catch (err) {
       console.log(err);
     }
@@ -32,7 +33,7 @@ export default function SearchMovie() {
 
   return (
     <>
-      <form className="form" onSubmit={searchMovies}>
+      <form className="form" id="form" onSubmit={searchMovies}>
         <label htmlFor="query" className="label">
           Movie Name
         </label>

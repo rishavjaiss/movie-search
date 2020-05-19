@@ -10,9 +10,10 @@ export default function Loader() {
         width: "100%",
         height: "100%",
         marginTop: "20%",
+        color: "white",
       }}
     >
-      <i class="fas fa-spinner fa-spin fa-5x"></i>
+      <i className="fas fa-spinner fa-spin fa-5x"></i>
     </div>
   );
 }
