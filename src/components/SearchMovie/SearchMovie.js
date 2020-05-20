@@ -7,6 +7,7 @@ export default function SearchMovie() {
   const [query, setQurey] = useState("");
   const [movies, setMovies] = useState([]);
   const [loading, setLodaing] = useState(false);
+  const [message, setMessage] = useState("Let's Go!");
 
   const sleep = (milliseconds) => {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -25,6 +26,9 @@ export default function SearchMovie() {
       const data = await res.json();
       setMovies(data.results);
       setLodaing(false);
+      if (data.results.length === 0) {
+        setMessage("Oops! No Results Found");
+      }
       document.getElementById("form").reset();
     } catch (err) {
       console.log(err);
@@ -50,7 +54,7 @@ export default function SearchMovie() {
       </form>
       {loading ? (
         <Loader />
-      ) : (
+      ) : movies.length > 0 ? (
         <div className="card-list">
           {movies
             .filter((movie) => movie.poster_path)
@@ -58,6 +62,20 @@ export default function SearchMovie() {
               <MovieCard movie={movie} key={movie.id} />
             ))}
         </div>
+      ) : (
+        <h2
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            height: "100%",
+            marginTop: "10%",
+            color: "#fcefbf",
+          }}
+        >
+          {message}
+        </h2>
       )}
     </>
   );
