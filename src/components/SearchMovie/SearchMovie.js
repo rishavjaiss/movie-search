@@ -18,7 +18,7 @@ export default function SearchMovie() {
     setLodaing(true);
     await sleep(milliseconds);
 
-    const API_KEY = "44ca07706ce10687a17e485b9a3166ca";
+    const API_KEY = "YOU_API_KEY";
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${query}&page=1&include_adult=false`;
 
     try {
