@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SearchMovie.css";
 import MovieCard from "../MovieCard/MovieCard.js";
 import Loader from "../Loader/Loader.js";
+import {API} from "../../env.js"
 
 export default function SearchMovie() {
   const [query, setQurey] = useState("");
@@ -18,7 +19,7 @@ export default function SearchMovie() {
     setLodaing(true);
     await sleep(milliseconds);
 
-    const API_KEY = "YOU_API_KEY";
+    const API_KEY = API;
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${query}&page=1&include_adult=false`;
 
     try {
