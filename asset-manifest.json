@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/movie-search/static/css/main.ec87ebe0.chunk.css",
-    "main.js": "/movie-search/static/js/main.4d0b754f.chunk.js",
-    "main.js.map": "/movie-search/static/js/main.4d0b754f.chunk.js.map",
-    "runtime-main.js": "/movie-search/static/js/runtime-main.8a6e7700.js",
-    "runtime-main.js.map": "/movie-search/static/js/runtime-main.8a6e7700.js.map",
-    "static/js/2.fd27d41d.chunk.js": "/movie-search/static/js/2.fd27d41d.chunk.js",
-    "static/js/2.fd27d41d.chunk.js.map": "/movie-search/static/js/2.fd27d41d.chunk.js.map",
+    "main.js": "/movie-search/static/js/main.111d5536.chunk.js",
+    "main.js.map": "/movie-search/static/js/main.111d5536.chunk.js.map",
+    "runtime-main.js": "/movie-search/static/js/runtime-main.fd4c7407.js",
+    "runtime-main.js.map": "/movie-search/static/js/runtime-main.fd4c7407.js.map",
+    "static/js/2.f75734e6.chunk.js": "/movie-search/static/js/2.f75734e6.chunk.js",
+    "static/js/2.f75734e6.chunk.js.map": "/movie-search/static/js/2.f75734e6.chunk.js.map",
     "index.html": "/movie-search/index.html",
-    "precache-manifest.83d537b12d3a4149a4d4758ab10b9635.js": "/movie-search/precache-manifest.83d537b12d3a4149a4d4758ab10b9635.js",
+    "precache-manifest.82bececde77ce01627eef6b942522990.js": "/movie-search/precache-manifest.82bececde77ce01627eef6b942522990.js",
     "service-worker.js": "/movie-search/service-worker.js",
     "static/css/main.ec87ebe0.chunk.css.map": "/movie-search/static/css/main.ec87ebe0.chunk.css.map",
-    "static/js/2.fd27d41d.chunk.js.LICENSE.txt": "/movie-search/static/js/2.fd27d41d.chunk.js.LICENSE.txt"
+    "static/js/2.f75734e6.chunk.js.LICENSE.txt": "/movie-search/static/js/2.f75734e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a6e7700.js",
-    "static/js/2.fd27d41d.chunk.js",
+    "static/js/runtime-main.fd4c7407.js",
+    "static/js/2.f75734e6.chunk.js",
     "static/css/main.ec87ebe0.chunk.css",
-    "static/js/main.4d0b754f.chunk.js"
+    "static/js/main.111d5536.chunk.js"
   ]
 }
