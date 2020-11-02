@@ -12,26 +12,6 @@
   text-transform: uppercase;
   color: #fcefbf;
 }
-.filter-group, .sort-group {
-  display: flex;
-  flex-direction: row;
-}
-.sort-group {
-  margin-left: 20px;
-  display: flex;
-  width: 150px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.highlight {
-  color: white;
-  font-weight: bold;
-}
-
-.sort-button {
-  cursor: pointer;
-}
 
 .input {
   font-size: 1.6rem;
